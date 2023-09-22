@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-md-3 col-12">
           <div class="footer-logo-div">
-            <img src="../imgs/footer-logo.png" alt="logo image here" />
+            <img src="/imgs/footer-logo.png" alt="logo image here" />
           </div>
         </div>
         <div class="col-md-1 col-6">
@@ -24,8 +24,9 @@
               <h5>Explore links</h5>
               <a href="./about_sabiha_page.html"><li>About Sabiha</li></a>
               <a href="#"><li>Create an account</li></a>
+              <a href="./courses.html"><li>Courses</li></a>
               <a href="./courses.html"><li>Blog</li></a>
-              <a href="./courses.html"><li>See More</li></a>
+              <!-- <a href="./courses.html"><li>See More</li></a> -->
             </ul>
           </div>
         </div>

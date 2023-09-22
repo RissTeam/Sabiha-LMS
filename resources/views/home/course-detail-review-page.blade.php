@@ -21,90 +21,19 @@
       crossorigin="anonymous"
     />
     <!-- ===================  CUSTOME FILE LINK START HERE================== -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/courses.css" />
-    <link rel="stylesheet" href="./css/course-overview-page.css" />
-    <link rel="stylesheet" href="./css/course-detail-review-page.css" />
+    <link rel="stylesheet" href="{{url('home../css/style.css')}}" />
+    <link rel="stylesheet" href="{{url('home../css/courses.css')}}" />
+    <link rel="stylesheet" href="{{url('home../css/course-overview-page.css')}}" />
+    <link rel="stylesheet" href="{{url('home../css/course-detail-review-page.css')}}" />
   </head>
   <body>
     <!-- ===================  NAVBAR START HERE================== -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 p-0 main-navbar">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container m-0">
-              <div class="img-div">
-                <a href="http://">
-                  <img src="./imgs/navbar_logo.png" alt="navbar logo here" />
-                </a>
-              </div>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span><i class="fa-solid fa-bars"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      aria-current="page"
-                      href="index.html"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./courses.html">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./about_sabiha_page.html"
-                      >Sabiha News</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./FAQ-page.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contact_us_page.html"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-                <div class="dropdown">
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Log in
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
+    @include('home.layout.header')
+   
     <!-- ===================  NAVBAR END HERE================== -->
 
-    <!-- =================== HEADER SECTION START HERE================== -->
-    <div class="container-fluid detial-page">
+     <!-- =================== HEADER SECTION START HERE================== -->
+     <div class="container-fluid detial-page">
       <div class="row">
         <div class="col-md-12">
           <div class="header-content-detail-page">
@@ -282,32 +211,32 @@
                 </p>
               </div>
               <div class="buy-button">
-                <button class="btn">
-                  <i class="fa-solid fa-bag-shopping pe-2"></i>Add to Cart
+                <button class="btn"><a href="./checkout-page.html">  <i class="fa-solid fa-bag-shopping pe-2"></i>Add to Cart</a>
+                
                 </button>
-                <button class="btn mt-3">Buy Now</button>
+                <button class="btn mt-3"><a href="./payment-method-page.html">Buy Now</a></button>
               </div>
               <div class="video-link-card">
                 <h2>Next part</h2>
-                <a href="http://"
+                <a href="./imgs/12b78bcb6390433ab02297a14e3d0dca.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 2</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/1a4180eb247843b5bc3f206da61bef06.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 3</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/24bdda3a3f90432bb04724138220f385.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 4</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/3c9535413d014d768a618121d032f7d1.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 5</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/7834fd0778964f32bb746d02e9fae9d6.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 6</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/8b3491a5648e41949d52b85bb98959a3.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 7</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/be60524537f64630b050abb7d916441d.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 8</p></a
                 >
               </div>
@@ -512,84 +441,4 @@
     </div>
     <!-- ===================  MOST FEATURE  SECTION START HERE================== -->
 
-    <!-- ===================  FOOTER SECTION START HERE================== -->
-    <div class="container-fluid footer">
-      <div class="row">
-        <div class="col-md-3 col-12">
-          <div class="footer-logo-div">
-            <img src="./imgs/footer-logo.png" alt="logo image here" />
-          </div>
-        </div>
-        <div class="col-md-1 col-6">
-          <div class="footer-links">
-            <ul class="mb-0">
-              <h5>Menu</h5>
-              <a href="./index.html"><li>Home</li></a>
-              <a href="./courses.html"><li>Courses</li></a>
-              <a href="./FAQ-page.html"> <li>FAQ</li></a>
-              <a href="./contact_us_page.html"><li>Contact</li></a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-md-2 col-6">
-          <div class="footer-links">
-            <ul class="mb-0">
-              <h5>Explore links</h5>
-              <a href="./about_sabiha_page.html"><li>About Sabiha</li></a>
-              <a href="#"><li>Create an account</li></a>
-              <a href="./courses.html"><li>Blog</li></a>
-              <a href="./courses.html"><li>See More</li></a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-1 d-none d-md-block"></div>
-        <div class="col-md-3 col-12">
-          <div class="social-icon">
-            <a href=""> <i class="fa-brands fa-facebook-f"></i></a
-            >&nbsp;&nbsp;&nbsp;
-            <a href=""><i class="fa-brands fa-twitter"></i></a
-            >&nbsp;&nbsp;&nbsp;
-            <a href=""> <i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-12">
-          <div class="footer-copyright">
-            <p>Copyright © 2023 Sabiha. All Rights Reserved.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-12">
-          <div class="terms">
-            <a href="./terms-and-condition-page.html" class="pe-0 pe-md-5"><p>Terms of Use</p></a>
-            <a href="./privacy-police-page.html" class="ps-5 ps-md-0"><p>Privacy Policy</p></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ===================  FOOTER SECTION END HERE================== -->
-
-    <!-- ===================BOOTSTRAP JS FILE LINK================== -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script>
-      var video = document.getElementById("myVideo");
-
-      var btn = document.getElementById("myBtn");
-
-      function myFunction() {
-        if (video.paused) {
-          video.play();
-          btn.innerHTML = "Pause";
-        } else {
-          video.pause();
-          btn.innerHTML = "Play";
-        }
-      }
-    </script> -->
-  </body>
-</html>
+    @include('home.layout.footer')

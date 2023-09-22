@@ -1,4 +1,3 @@
-
     <!-- ===================  ABOUT US SECTION START HERE================== -->
     <div class="container">
       <div class="row justify-content-center about-us-row">
@@ -21,7 +20,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-6">
               <div class="about-us-content">
-                <h4>ABOUT US</h4>
+                <h4>About Sabiha</h4>
                 <h2>Psychological Consultant/Business Coach/Mental Coach</h2>
                 <p>
                   Sabiha Abdulkader is a certified psychologist and mentor. With
@@ -29,7 +28,7 @@
                   family counselling, mental health, and NLP to business
                   coaching and female development.
                 </p>
-                <button class="btn">About News</button>
+                <button class="btn"><a href="./abut-sabiha-abdulkader-detail-page.html">About News</a></button>
               </div>
             </div>
           </div>

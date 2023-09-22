@@ -74,7 +74,7 @@
           </div>
           <div class="col-md-4 col-12">
             <div class="sabiha-news-latter-btn">
-              <button class="btn ">Courses<i class="fa-solid fa-arrow-right ps-2"></i></button>
+              <button class="btn "><a href="./courses.html">Courses<i class="fa-solid fa-arrow-right ps-2"></i></a></button>
             </div>
           </div>
         </div>

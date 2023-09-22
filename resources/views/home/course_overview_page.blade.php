@@ -30,9 +30,8 @@
     @include('home.layout.header')
     
     <!-- ===================  NAVBAR END HERE================== -->
-
-    <!-- =================== HEADER SECTION START HERE================== -->
-    <div class="container-fluid detial-page">
+ <!-- =================== HEADER SECTION START HERE================== -->
+ <div class="container-fluid detial-page">
       <div class="row">
         <div class="col-md-12">
           <div class="header-content-detail-page">
@@ -221,7 +220,7 @@
           <div class="psychology-card">
             <div class="card-content">
               <div class="card-img-div">
-                <img src="../imgs/psychology-card-img.png" alt="" />
+                <img src="/imgs/psychology-card-img.png" alt="" />
               </div>
               <div class="sale-price">
                 <h4>$100.00</h4>
@@ -230,32 +229,32 @@
                 </p>
               </div>
               <div class="buy-button">
-                <button class="btn">
-                  <i class="fa-solid fa-bag-shopping pe-2"></i>Add to Cart
+                <button class="btn"><a href="./checkout-page.html">  <i class="fa-solid fa-bag-shopping pe-2"></i>Add to Cart</a>
+                
                 </button>
-                <button class="btn mt-3">Buy Now</button>
+                <button class="btn mt-3"><a href="./payment-method-page.html">Buy Now</a></button>
               </div>
               <div class="video-link-card">
                 <h2>Next part</h2>
-                <a href="http://"
+                <a href="./imgs/12b78bcb6390433ab02297a14e3d0dca.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 2</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/1a4180eb247843b5bc3f206da61bef06.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 3</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/24bdda3a3f90432bb04724138220f385.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 4</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/3c9535413d014d768a618121d032f7d1.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 5</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/7834fd0778964f32bb746d02e9fae9d6.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 6</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/8b3491a5648e41949d52b85bb98959a3.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 7</p></a
                 >
-                <a href="http://"
+                <a href="./imgs/be60524537f64630b050abb7d916441d.mp4"
                   ><p><span class="fa-solid fa-video pe-2"></span>Part 8</p></a
                 >
               </div>
@@ -282,7 +281,7 @@
             <div class="most-feature-card">
               <div class="main-card-body">
                 <div class="most-feature-card-img-div">
-                  <img src="../imgs/most-feature-card1.png" alt="" />
+                  <img src="/imgs/most-feature-card1.png" alt="" />
                 </div>
                 <div class="rating-stars d-flex">
                   <span class="fa fa-star checked"></span>
@@ -320,7 +319,7 @@
                     <div class="tutor-img-sec">
                       <p>
                         <img
-                          src="../imgs/most-feature-card-tutor-img.png"
+                          src="./imgs/most-feature-card-tutor-img.png"
                           alt=""
                           class="pe-2"
                         />Kristin Watson
@@ -342,7 +341,7 @@
             <div class="most-feature-card">
               <div class="main-card-body">
                 <div class="most-feature-card-img-div">
-                  <img src="../imgs/most-feature-card2.png" alt="" />
+                  <img src="/imgs/most-feature-card2.png" alt="" />
                 </div>
                 <div class="rating-stars d-flex">
                   <span class="fa fa-star checked"></span>
@@ -380,7 +379,7 @@
                     <div class="tutor-img-sec">
                       <p>
                         <img
-                          src="../imgs/most-feature-card-tutor-img.png"
+                          src="./imgs/most-feature-card-tutor-img.png"
                           alt=""
                           class="pe-2"
                         />Eleanor Pena
@@ -401,7 +400,7 @@
             <div class="most-feature-card">
               <div class="main-card-body">
                 <div class="most-feature-card-img-div">
-                  <img src="../imgs/most-feature-card3.png" alt="" />
+                  <img src="/imgs/most-feature-card3.png" alt="" />
                 </div>
                 <div class="rating-stars d-flex">
                   <span class="fa fa-star checked"></span>
@@ -439,7 +438,7 @@
                     <div class="tutor-img-sec">
                       <p>
                         <img
-                          src="../imgs/most-feature-card-tutor-img.png"
+                          src="./imgs/most-feature-card-tutor-img.png"
                           alt=""
                           class="pe-2"
                         />Ralph Edwards
@@ -458,5 +457,7 @@
         </div>
       </div>
     </div>
+    <!-- ===================  MOST FEATURE  SECTION START HERE================== -->
+
     <!-- ===================  MOST FEATURE  SECTION START HERE================== -->
     @include('home.layout.footer')
