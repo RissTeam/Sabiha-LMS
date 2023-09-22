@@ -29,18 +29,6 @@ class HomeController extends Controller
     }
 
 
- 
-
-
-        // function for course_overview_page
-        public function course_overview_page($id)
-        {
-            return view('home.course_overview_page');
-        }
-
-        
- 
-
         // function for courses
         public function courses()
         {
@@ -50,6 +38,14 @@ class HomeController extends Controller
 
             return view('home.courses',compact('feature_courses','free_courses','news'));
         }
+
+
+        // function for course_overview_page
+        public function course_overview_page($id)
+        {
+            return view('home.course_overview_page');
+        }
+
 
 
         // function for about-sabiha-page
@@ -70,9 +66,6 @@ class HomeController extends Controller
         {
             return view('home.contact_us_page');
         }
-
-
-
 
 
 

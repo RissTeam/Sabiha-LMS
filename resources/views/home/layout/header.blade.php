@@ -1,5 +1,6 @@
 
-    <!-- ===================  NAVBAR START HERE================== -->
+
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 p-0 main-navbar">
@@ -24,25 +25,21 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{url('/')}}"
+                    <a class="nav-link" aria-current="page" href="{{url('/')}}"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{url('courses')}}">Courses</a>
+                    <a class="nav-link active" href="{{url('courses')}}">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{url('about_sabiha_page')}}"
-                      >Sabiha News</a
-                    >
+                    <a class="nav-link" href="{{url('about_sabiha_page')}}">About Sabiha</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{url('FAQ_page')}}">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{url('contact_us_page')}}"
-                      >Contact Us</a
-                    >
+                    <a class="nav-link" href="{{url('contact_us_page')}}">Contact Us</a>
                   </li>
                 </ul>
                 <div class="dropdown">
@@ -70,4 +67,3 @@
         </div>
       </div>
     </div>
-    <!-- ===================  NAVBAR END HERE================== -->
